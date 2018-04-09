@@ -4,7 +4,7 @@
 \alias{riverbuilder}
 \title{Generates graphs, text files, and coordinates related to a given set of river data.}
 \source{
-\url{https://github.com/Soronie/RiverBuilder-Essentials}
+\url{http://pasternack.ucdavis.edu/research/projects/synthetic-river-valleys/}
 }
 \usage{
 riverbuilder(filename, directory, overwrite)
@@ -21,11 +21,16 @@ None. Output files are generated in the specified (or temporary) directory: \cr 
 BoundaryPoints.csv - Contains keys that map to specific points in CartesianCoordinates.csv that comprise the boundary around a river’s floodplain.\cr \cr
 CartesianCoordinates.csv - Contains comma-separated XYZ coordinates for the synthetic river valley. A separate program such as ArcGIS can use these points to generate a 3D model.\cr \cr
 Data.csv - Contains coefficients of variation, averages, standard deviations, channel slope, and other important information.\cr \cr
-ChannelElevation.png - Displays the elevation of the river’s channel meander.\cr \cr
-CrossSection.png - Displays the river’s cross section at its midway point. The cross section is bounded above by the river’s bank top and below by the thalweg.\cr \cr
+CenterlineCurvature.png - Displays the curvature of the channel's centerline.\cr \cr
+CenterlineCurvature.csv - Contains coordinate data that was visualized in CenterlineCurvature.png.\cr \cr
+ValleySection.png - Displays the cross section of the channel and floodplain at their midway point.\cr \cr
+ValleySection.csv - Contains coordinate data that was visualized in ValleySection.png.\cr \cr
 GCS.png - Displays the geometric covariance structures of: bankfull width and thalweg elevation; thalweg elevation and the channel meander.\cr \cr
+GCS.csv - Contains coordinate data that was visualized in GCS.png.\cr \cr
 LongitudinalProfile.png - Displays the side view of the river which consists of valley top, valley floor, bank top, and thalweg elevation.\cr \cr
-Planform.png - Displays the bird’s eye view of the river which consists of the channel meander, channel bank, valley floor, and valley top.
+LongitudinalProfile.csv - Contains coordinate data that was visualized in LongitudinalProfile.png.\cr \cr
+Planform.png - Displays the bird’s eye view of the river which consists of the channel meander, channel bank, valley floor, and valley top.\cr \cr
+Planform.csv - Contains coordinate data that was visualized in Planform.png.\cr \cr
 }
 \description{
 Generates graphs, text files, and coordinates related to a given set of river data.

@@ -1,7 +1,8 @@
-93ee82afe8113bb289f9ea1b77422d34 *DESCRIPTION
+39bad98e9928f720fe9ffd644eeb4eec *DESCRIPTION
 39215497074eec65f90f4de4cfbff08c *NAMESPACE
-c8d375b381a9741de6f47be4da334a5c *R/riverbuilder.r
-46353d39d02cc581695d82938553f31c *inst/extdata/Input.txt
+c723f8bba2ebb5a8c8eca2aa802c9148 *R/riverbuilder.r
+c2c1d0d40531b8c2dae8d81c59ed5eab *inst/extdata/Input.txt
 206f020c66ecb1151ad1c5ab898692cd *inst/extdata/RiverBuilder.py
-8740112da854527fd5ab13a2f5985e52 *inst/extdata/RiverBuilder_User_Manual_1.0.0.pdf
-e25b097b8d3ba892419faee827e7aaef *man/riverbuilder.Rd
+0a98d029826abe70cf4ee702d6cf4eb5 *inst/extdata/RiverBuilder.tbx
+0a8409bf5000db1ede25db94142e125f *inst/extdata/RiverBuilder_User_Manual_0.1.1.pdf
+86377cde952345c8fd08e8f76bbf4e45 *man/riverbuilder.Rd
